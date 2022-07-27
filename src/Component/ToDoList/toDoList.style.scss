@@ -1,0 +1,85 @@
+.main-div{
+    height: auto;
+    width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 70px;
+    background-color: azure;
+
+    input{
+        width: 250px;
+        border: 2px solid black;
+        border-radius: 11px;
+        padding: 20px;
+        margin-bottom: 15px;
+    };
+
+}
+
+.todo-logo{
+    height: 30px;
+    width: 30px;
+}
+
+.addItems{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position:relative;
+
+    .add-btn{
+        position: absolute;
+        top: 25%;
+        right: 25%;
+        background-color: #ffffff;
+        cursor: pointer;
+    }
+}
+
+.btn{
+    background-color: cadetblue;
+    color: aliceblue;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.showItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+    .eachItem{
+        width: 250px;
+        height: 20px;
+        background-color: #ffffff;
+        color: black;
+        border: 2px solid black;
+        border-radius: 11px;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .todo-btn{
+        display: flex;
+        gap: 5px;
+        
+        .add-btn{
+            background-color: #ffffff;
+            cursor: pointer;
+        }
+    }
+}
+
+.btn-remove{
+    display: flex;
+    margin-top: 10px;
+    justify-self: center;
+    padding: 10px;
+    background-color: #ffffff;
+    cursor: pointer;    
+}

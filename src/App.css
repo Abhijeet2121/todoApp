@@ -1,0 +1,13 @@
+.App{
+    text-align: center;
+    background-color:bisque;
+    width: 600px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
