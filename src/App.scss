@@ -1,8 +1,7 @@
-.App{
+.AppContainer {
     text-align: center;
     background-color:bisque;
-    width: 600px;
-    height: auto;
+    min-height: 100vh;
     border: 2px solid black;
     border-radius: 9px;
     display: flex;
@@ -10,4 +9,5 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+
 }
